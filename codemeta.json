@@ -1,0 +1,42 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "codeRepository": "https://github.com/CLARIAH/dane-object-classification-worker",
+    "dateCreated": "2020-09-11",
+    "issueTracker": "https://github.com/CLARIAH/dane-object-classification-worker/issues",
+    "name": "dane-object-classification-worker",
+    "version": "0.1.0",
+    "description": "DANE worker that, given a set of keyframes, produces ImageNet classifications in a vector space; depends on DANE-server",
+    "applicationCategory": "Multimedia processing",
+    "developmentStatus": "wip",
+    "isPartOf": "https://github.com/CLARIAH/DANE-server",
+    "funder": {
+        "@type": "Organization",
+		"name": "CLARIAH",
+		"url": "https://www.clariah.nl"
+    },
+    "programmingLanguage": [
+        "Python 3"
+    ],
+    "softwareRequirements": [
+        "Python 3.10"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-5145-3603",
+            "givenName": "Nanne",
+            "familyName": "van Noord"
+        },
+        {
+            "@type": "Person",
+            "@id": "https://github.com/jblom",
+            "givenName": "Jaap",
+            "familyName": "Blom",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "The Netherlands Institute for Sound and Vision"
+            }
+        }
+    ]
+}

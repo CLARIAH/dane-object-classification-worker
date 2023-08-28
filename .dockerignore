@@ -1,0 +1,9 @@
+DS_Store
+*.pyc
+*.swp
+.coverage
+__pycache__
+.pytest_cache
+config.yml
+mount
+.gitignore
