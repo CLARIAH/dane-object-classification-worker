@@ -12,6 +12,10 @@ a softmax vector over the `1000` ImageNet classes if `store_embeddings` is on. I
 
 Prerequisites:
 
+This worker uses Pytorch as a DNN framework, to install it follow the instructions given here: https://pytorch.org/get-started/locally/
+
+Other prerequisites:
+
 - Python 3.10.x
 - [Poetry](https://python-poetry.org/)
 
